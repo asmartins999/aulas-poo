@@ -1,0 +1,20 @@
+// Anotações - Curso POO
+
+Orientação a Objetos
+
+- class = possui os atributos (características), métodos (funções). É o molde do objeto.
+
+- objeto = algo que pode ser caracterizado, possui estado e ações.
+
+VISIBILIDADE
+- public = totalmente visivel.
+- private = visivel apenas dentro da mesma classe;
+- protected = visivel para familia de objeto.
+
+MÉTODOS ESPECIAIS
+- getters = metodos publicos que usam atributos privados para buscar informações;
+
+- setters = metodos publicos que usam atributos privados e podem modifica-los;
+
+- constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
+
