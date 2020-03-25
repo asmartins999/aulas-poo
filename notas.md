@@ -18,7 +18,29 @@ MÉTODOS ESPECIAIS
 
 - constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
 
-//Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
+// Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 EHP = Encapsulamento, Herança e Polimorfismo;
 
-- Encapsulamento = 
+- Encapsulamento
+ * Conceito -> capsula;
+ * Oculta partes independentes da implementação;
+ * Permite construir partes invisíveis ao mundo exterior;
+ * As informações solicitadas externamente seram tratadas pela capsula (interface);
+ * A capsula se comunicará com os itens internos do objeto;
+ * É uma boa prática, nāo é obrigatório.
+
+- Encapsulamento - Vantagens
+ * Tornar mudanças invisíveis;
+ * Facilitar a reutiliçāo do código;
+ * Reduzie efeitos colatareais ao código.
+
+
+
+
+
+
+
+
+
+
+
