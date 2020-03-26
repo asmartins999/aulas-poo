@@ -32,10 +32,16 @@ EHP = Encapsulamento, Herança e Polimorfismo;
 - Encapsulamento - Vantagens
  * Tornar mudanças invisíveis;
  * Facilitar a reutiliçāo do código;
- * Reduzie efeitos colatareais ao código.
+ * Reduzir efeitos colatareais ao código.
 
+- Criando uma interface (conceito)
+ * Criar uma interface e dar um nome;
+ * Interface nao possui atributos;
+ * Possui somente metodos;
+ * O metodos da interface são abstratos (não tem configurações, apenas chamam a função da classe);
+ * Os metodos da interface geralmente são públicos;
 
-
+23:57
 
 
 
