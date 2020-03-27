@@ -21,7 +21,7 @@ MÉTODOS ESPECIAIS
 // Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 EHP = Encapsulamento, Herança e Polimorfismo;
 
-- Encapsulamento
+Encapsulamento
  * Conceito -> capsula;
  * Oculta partes independentes da implementação;
  * Permite construir partes invisíveis ao mundo exterior;
@@ -29,13 +29,13 @@ EHP = Encapsulamento, Herança e Polimorfismo;
  * A capsula se comunicará com os itens internos do objeto;
  * É uma boa prática, nāo é obrigatório.
 
-- Encapsulamento - Vantagens
+Encapsulamento - Vantagens
  * Tornar mudanças invisíveis;
  * Facilitar a reutiliçāo do código;
  * Reduzir efeitos colatareais ao código.
 
-- Criando uma interface (conceito)
- * Criar uma interface e dar um nome;
+Criando uma interface (conceito)
+ * Interface tem um nome;
  * Interface nao possui atributos;
  * Possui somente metodos;
  * O metodos da interface são abstratos (não tem configurações, apenas chamam a função da classe);
