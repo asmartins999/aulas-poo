@@ -1,4 +1,4 @@
-// Anotações - Curso POO
+			Anotações - Curso POO
 
 Orientação a Objetos
 
@@ -18,8 +18,9 @@ MÉTODOS ESPECIAIS
 
 - constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
 
-// Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
-EHP = Encapsulamento, Herança e Polimorfismo;
+Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
+
+ * EHP = Encapsulamento, Herança e Polimorfismo;
 
 Encapsulamento
  * Conceito -> capsula;
