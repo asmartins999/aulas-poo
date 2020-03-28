@@ -43,7 +43,6 @@ Criando uma interface (conceito)
  * O metodos da interface são abstratos (não tem configurações, apenas chamam a função da classe);
  * Os metodos da interface geralmente são públicos;
  * A interface deve ser ligada a classe.
-23:57
 
 
 
