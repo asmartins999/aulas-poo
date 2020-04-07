@@ -18,7 +18,7 @@ MÉTODOS ESPECIAIS
 
 - constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
 
-
+================================================
 Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 
  * EHP = Encapsulamento, Herança e Polimorfismo;
@@ -44,6 +44,16 @@ Criando uma interface (conceito)
  * Os metodos da interface geralmente são públicos;
  * A interface deve ser ligada a classe.
 
+===============================================
+RELACIONAMENTO ENTRE CLASSES
+
+AGREGAÇÃO
+* Tem um nome;
+* Tem uma direção;
+* Relação do TIPO tem 1;
+* A classe agregada pode usar objetos e métodos da classe pai;
+* Multiplicidades dos dois lados;
+* Possui atributos e métodos;
 
 
 
