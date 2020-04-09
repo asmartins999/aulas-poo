@@ -1,16 +1,16 @@
 #			Anotações - Curso POO
 
-### ORIENTAÇÃO A OBJETOS
+## ORIENTAÇÃO A OBJETOS
 - class = possui os atributos (características), métodos (funções). É o molde do objeto.
 
 - objeto = algo que pode ser caracterizado, possui estado e ações.
 
-#### VISIBILIDADE
+### VISIBILIDADE
 - public = totalmente visivel.
 - private = visivel apenas dentro da mesma classe;
 - protected = visivel para familia de objeto.
 
-MÉTODOS ESPECIAIS
+### MÉTODOS ESPECIAIS
 - getters = metodos publicos que usam atributos privados para buscar informações;
 
 - setters = metodos publicos que usam atributos privados e podem modifica-los;
@@ -21,9 +21,9 @@ MÉTODOS ESPECIAIS
 
 Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 
-EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO
+## EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO
 
-## ENCAPSULAMENTO
+### ENCAPSULAMENTO
  * Conceito -> capsula;
  * Oculta partes independentes da implementação;
  * Permite construir partes invisíveis ao mundo exterior;
@@ -31,12 +31,12 @@ EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO
  * A capsula se comunicará com os itens internos do objeto;
  * É uma boa prática, nāo é obrigatório.
 
-VANTAGENS - ENCAPSULAMENTO
+### VANTAGENS - ENCAPSULAMENTO
  * Tornar mudanças invisíveis;
  * Facilitar a reutiliçāo do código;
  * Reduzir efeitos colatareais ao código.
 
-CRIANDO UMA INTERFACE (CONCEITO)
+### CRIANDO UMA INTERFACE (CONCEITO)
  * Interface tem um nome;
  * Interface nao possui atributos;
  * Possui somente metodos;
@@ -44,7 +44,7 @@ CRIANDO UMA INTERFACE (CONCEITO)
  * Os metodos da interface geralmente são públicos;
  * A interface deve ser ligada a classe.
 
-## HERANÇA
+### HERANÇA
 * Permite basear uma classe em outra pré-existente;
 * A nova classe não sera recriada do zero, mas com base na classe mãe;
 * A herança se aplica aos atributos e metodos;
@@ -54,7 +54,7 @@ CRIANDO UMA INTERFACE (CONCEITO)
 
 ===============================================
 
-RELACIONAMENTO ENTRE CLASSES
+### RELACIONAMENTO ENTRE CLASSES
 
 -> AGREGAÇÃO
 * Tem um nome;
