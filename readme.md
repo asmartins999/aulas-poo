@@ -1,11 +1,11 @@
 #			Anotações - Curso POO
 
-ORIENTAÇÃO A OBJETOS
+### ORIENTAÇÃO A OBJETOS
 - class = possui os atributos (características), métodos (funções). É o molde do objeto.
 
 - objeto = algo que pode ser caracterizado, possui estado e ações.
 
-VISIBILIDADE
+#### VISIBILIDADE
 - public = totalmente visivel.
 - private = visivel apenas dentro da mesma classe;
 - protected = visivel para familia de objeto.
