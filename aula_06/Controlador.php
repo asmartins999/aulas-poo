@@ -1,5 +1,6 @@
 <?php
 interface Controlador{
+	//Metodos da interface sao publicos e nao tem comandos
 	public function ligar();
 	public function desligar();
 	public function abrirMenu();

@@ -13,7 +13,7 @@ class Lutador{
 	private $derrotas;
 	private $empates;
 
-	//getter and setter
+	//Metodos getter and setter
 	public function getNome(){
 		return $this->nome;
 	}
@@ -96,8 +96,7 @@ class Lutador{
 		$this->empates = $e;
 	}
 
-	// specials functions
-
+	// Metodos especiais
 	public function __construct($n, $nac, $i, $a, $p, $v, $d, $e){
 		$this->setNome($n);
 		$this->setNacional($nac);

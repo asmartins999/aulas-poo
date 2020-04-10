@@ -1,6 +1,7 @@
 <?php
 require_once 'class.lutador.php';
 
+// Usando o array pode se instaciar um objeto varias vezes com parametros diferentes
 $l = array();
 
 $l[0] = new Lutador("Pretty Boy", "Francês", 31, 1.75, 68.9, 11, 2, 1);

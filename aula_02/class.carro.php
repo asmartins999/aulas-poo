@@ -1,10 +1,12 @@
 <?php
 class Carro {
 	
+	//Atributos
 	var $modelo;
 	var $ano;
 	var $cor;
 
+	//Metodos
 	function ligar(){
 		if ($this->desligar == true) {
 			echo "Ligando ....";
@@ -24,9 +26,9 @@ class Carro {
 	function andar(){
 		if ($this->ligar == true) {
 			echo "Andando ....";		
-	} else {
-		echo "Carro está desligado!";
+		} else {
+				echo "Carro está desligado!";
+		}
 	}
-}
 }
 ?>

@@ -4,7 +4,7 @@
 require_once 'Controlador.php';
 
 
-/* a classe Controle Remoto está implentando a interface Controlador */
+// A classe Controle Remoto está implentando a interface Controlador
 class ControleRemoto implements Controlador{
 	
 	// Atributos e Métodos da classe
@@ -41,9 +41,8 @@ class ControleRemoto implements Controlador{
 		$this->tocando = $t;
 	}
 
-/*
-	 Métodos que foram implementados a partir da interface "Controlador" */
-	
+
+	 //Métodos que foram implementados a partir da interface "Controlador" 
 	public function ligar(){
 		$this->setLigado(true);
 	}
