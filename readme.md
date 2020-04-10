@@ -24,6 +24,7 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
  * Permite construir partes invisíveis ao mundo exterior;
  * As informações solicitadas externamente seram tratadas pela capsula (interface);
  * A capsula se comunicará com os itens internos do objeto;
+ * Não depende de outro pilar;
  * É uma boa prática, nāo é obrigatório.
 
 <h3>VANTAGENS - ENCAPSULAMENTO</h3>
@@ -37,13 +38,19 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
  * Possui somente metodos;
  * O metodos da interface são abstratos (não tem configurações, apenas chamam a função da classe);
  * Os metodos da interface geralmente são públicos;
- * A interface deve ser ligada a classe.
+ * A interface deve ser ligada a classe através do comando implements.
 
 <hr>
 <h3>HERANÇA</h3>
 * Permite basear uma classe em outra pré-existente;
 * A nova classe não sera recriada do zero, mas com base na classe mãe;
 * A herança se aplica aos atributos e metodos;
+* Herança nao dependete do Encapsulamento;
+* Uma classe é filiada a outra atravé do comando extends;
+* A classe mãe pode se chamar progenitora ou superclasse;
+* A classe filha pode se chamar subclasse;
+* Não é necessário declarar atributos e metodos da superclasse na subclasse, os mesmo já sao herdados da classe mãe;
+
 
 <hr>
 <h2>RELACIONAMENTO ENTRE CLASSES</h2>
@@ -54,7 +61,7 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 * Relação do TIPO tem 1;
 * A classe agregada pode usar objetos e métodos da classe pai;
 * Multiplicidades dos dois lados;
-* Possui atributos e métodos
+* Possui atributos e métodos.
 
 
 
