@@ -1,26 +1,23 @@
 <h1><strong>Anotações - Curso POO</strong></h1>
 
 <h2>ORIENTAÇÃO A OBJETOS</h2>
-* class = possui os atributos (características), métodos (funções). É o molde do objeto.
-
+* class = possui os atributos (características), métodos (funções). É o molde do objeto;
 * objeto = algo que pode ser caracterizado, possui estado e ações.
 
 <h3>VISIBILIDADE</h3>
-* public = totalmente visivel.
+* public = totalmente visivel;
 * private = visivel apenas dentro da mesma classe;
 * protected = visivel para familia de objeto.
 
 <h3>MÉTODOS ESPECIAIS</h3>
 * getters = metodos publicos que usam atributos privados para buscar informações;
-
 * setters = metodos publicos que usam atributos privados e podem modifica-los;
-
 * constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
 
-<hr>
-<h2>EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO</h2>
+<h1>EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO</h1>
 Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 
+<hr>
 <h3>ENCAPSULAMENTO</h3>
  * Conceito -> capsula;
  * Oculta partes independentes da implementação;
@@ -49,15 +46,15 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 * A herança se aplica aos atributos e metodos;
 
 <hr>
-<h3>RELACIONAMENTO ENTRE CLASSES</h3>
+<h2>RELACIONAMENTO ENTRE CLASSES</h2>
 
-AGREGAÇÃO
+<h3>AGREGAÇÃO</h3>
 * Tem um nome;
 * Tem uma direção;
 * Relação do TIPO tem 1;
 * A classe agregada pode usar objetos e métodos da classe pai;
 * Multiplicidades dos dois lados;
-* Possui atributos e métodos;
+* Possui atributos e métodos
 
 
 
