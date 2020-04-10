@@ -1,4 +1,4 @@
-<h1 style="align-self: center;"><strong>Anotações - Curso POO</strong></h1>
+<h1 style="align-items: center;"><strong>Anotações - Curso POO</strong></h1>
 
 ## ORIENTAÇÃO A OBJETOS
 - class = possui os atributos (características), métodos (funções). É o molde do objeto.
