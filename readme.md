@@ -1,4 +1,4 @@
-#			Anotações - Curso POO
+<h1 style="align-self: center;"><strong>Anotações - Curso POO</strong></h1>
 
 ## ORIENTAÇÃO A OBJETOS
 - class = possui os atributos (características), métodos (funções). É o molde do objeto.
@@ -16,9 +16,7 @@
 - setters = metodos publicos que usam atributos privados e podem modifica-los;
 
 - constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
-
-================================================
-
+<hr>
 Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 
 ## EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO
