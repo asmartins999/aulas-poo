@@ -5,7 +5,7 @@ class Pessoa{
 	private $sexo;
 
 	public function fazerAniver(){
-		$this->setIdade($this->getIdade() + 1):
+		$this->setIdade($this->getIdade() + 1);
 	}
 
 	public function getNome(){
