@@ -1,27 +1,27 @@
-<h1 style="align-items: center;"><strong>Anotações - Curso POO</strong></h1>
+<h1><strong>Anotações - Curso POO</strong></h1>
 
-## ORIENTAÇÃO A OBJETOS
-- class = possui os atributos (características), métodos (funções). É o molde do objeto.
+<h2>ORIENTAÇÃO A OBJETOS</h2>
+* class = possui os atributos (características), métodos (funções). É o molde do objeto.
 
-- objeto = algo que pode ser caracterizado, possui estado e ações.
+* objeto = algo que pode ser caracterizado, possui estado e ações.
 
-### VISIBILIDADE
-- public = totalmente visivel.
-- private = visivel apenas dentro da mesma classe;
-- protected = visivel para familia de objeto.
+<h3>VISIBILIDADE</h3>
+* public = totalmente visivel.
+* private = visivel apenas dentro da mesma classe;
+* protected = visivel para familia de objeto.
 
-### MÉTODOS ESPECIAIS
-- getters = metodos publicos que usam atributos privados para buscar informações;
+<h3>MÉTODOS ESPECIAIS</h3>
+* getters = metodos publicos que usam atributos privados para buscar informações;
 
-- setters = metodos publicos que usam atributos privados e podem modifica-los;
+* setters = metodos publicos que usam atributos privados e podem modifica-los;
 
-- constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
+* constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
+
 <hr>
+<h2>EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO</h2>
 Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 
-## EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO
-
-### ENCAPSULAMENTO
+<h3>ENCAPSULAMENTO</h3>
  * Conceito -> capsula;
  * Oculta partes independentes da implementação;
  * Permite construir partes invisíveis ao mundo exterior;
@@ -29,12 +29,12 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
  * A capsula se comunicará com os itens internos do objeto;
  * É uma boa prática, nāo é obrigatório.
 
-### VANTAGENS - ENCAPSULAMENTO
+<h3>VANTAGENS - ENCAPSULAMENTO</h3>
  * Tornar mudanças invisíveis;
  * Facilitar a reutiliçāo do código;
  * Reduzir efeitos colatareais ao código.
 
-### CRIANDO UMA INTERFACE (CONCEITO)
+<h3>CRIANDO UMA INTERFACE (CONCEITO)</h3>
  * Interface tem um nome;
  * Interface nao possui atributos;
  * Possui somente metodos;
@@ -42,19 +42,16 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
  * Os metodos da interface geralmente são públicos;
  * A interface deve ser ligada a classe.
 
-### HERANÇA
+<hr>
+<h3>HERANÇA</h3>
 * Permite basear uma classe em outra pré-existente;
 * A nova classe não sera recriada do zero, mas com base na classe mãe;
 * A herança se aplica aos atributos e metodos;
 
+<hr>
+<h3>RELACIONAMENTO ENTRE CLASSES</h3>
 
-
-
-===============================================
-
-### RELACIONAMENTO ENTRE CLASSES
-
--> AGREGAÇÃO
+AGREGAÇÃO
 * Tem um nome;
 * Tem uma direção;
 * Relação do TIPO tem 1;
