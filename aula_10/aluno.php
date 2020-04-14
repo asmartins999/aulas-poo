@@ -6,7 +6,7 @@ class Aluno extends Pessoa {
 	private $curso;
 
 	public function cancelarMatricula(){
-		$this->matricula = false;
+		$this->matricula = !$this->matricula;
 	}
 
 	public function getMatricula(){

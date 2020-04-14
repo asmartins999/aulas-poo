@@ -6,11 +6,7 @@ class Funcionario extends Pessoa {
 	private $trabalhando;
 
 	public function mudarTrabalho(){
-		if ($this->getTrabalhando() = true) {
-			$this->setTrabalhando() = false;
-		} else {
-			$this->setTrabalhando() = true;
-		}
+		$this->trabalhando = !$this->trabalhando;
 	}
 
 	public function getSetor(){
