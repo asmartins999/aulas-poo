@@ -19,14 +19,14 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 
 <hr>
 <h3>ENCAPSULAMENTO</h3>
- ..* Conceito -> capsula;
- ..* Oculta partes independentes da implementação;
- ..* Permite construir partes invisíveis ao mundo exterior;
- ..* As informações solicitadas externamente seram tratadas pela capsula (interface);
- ..* A capsula se comunicará com os itens internos do objeto;
- ..* Não depende de outro pilar;
- ..* É uma boa prática, nāo é obrigatório.
-
+ <ul>
+ 	<li>Conceito -> capsula;</li>
+	 <li> Oculta partes independentes da implementação;</li>
+	 <li>Permite construir partes invisíveis ao mundo exterior;</li>
+	 <li>As informações solicitadas externamente seram tratadas pela capsula (interface);</li>
+	 <li>* Não depende de outro pilar;</li>
+	 <li>É uma boa prática, nāo é obrigatório.</li>
+ </ul>
 <h3>VANTAGENS - ENCAPSULAMENTO</h3>
  ..* Tornar mudanças invisíveis;
  ..* Facilitar a reutiliçāo do código;
