@@ -71,12 +71,25 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 </ul>
 <h3>TIPOS DE HERANÇA</h3>
 <ul>
-	<h3>HERANÇA DE IMPLEMENTAÇÃO</h3>
-	<li>continuar do 9:51 - 11a</li>
-	<h3>HERANÇA PARA DIFEREÇA</h3>
-	<li></li>
+	<li>Herança de Implementação é quando uma classe filha herda as propriedades da classe mãe, porém nao possui nenhuma propriedade em si mesma;</li>
+	<li>Heranca de Diferença é aquela em que as classes filhos possuem propriedades e também herdão as propriedades da classe mãe.</li>
 </ul>
-
+<h3>ABSTRATO E FINAL (CONCEITO)</h3>
+<ul>
+	<h3>CLASSE ABSTRATA</h3>
+	<li>Não pode ser instaciada;</li>
+	<li>Só pode servir como progenitora;</li>
+	<li>Não podem ser gerados objetos as partir da classe definida como abstrata.</li>
+	<h3>MÉTODO ABSTRATO</h3>
+	<li>Declarado, mas não implementado na progenitora;</li>
+	<li>Só pode ser usado em uma interface ou classe abstrata;</li>
+	<h3>CLASSE FINAL</h3>
+	<li>Não pode ser herdada por outra classe;</li>
+	<li>É obrigatoriamente uma folha (não pode ter filhos);</li>
+	<h3>MÉTODO FINAL</h3>
+	<li>Não pode ser sobrescrito pelas suas sub-classes;</li>
+	<li>É obrigatoriamente herdado;</li>
+</ul>
 
 <hr>
 <h2>RELACIONAMENTO ENTRE CLASSES</h2>
