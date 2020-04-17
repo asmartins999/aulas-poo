@@ -1,18 +1,18 @@
 <h1><strong>Anotações - Curso POO</strong></h1>
 
 <h2>ORIENTAÇÃO A OBJETOS</h2>
-..* class = possui os atributos (características), métodos (funções). É o molde do objeto;
-..* objeto = algo que pode ser caracterizado, possui estado e ações.
+<li> class = possui os atributos (características), métodos (funções). É o molde do objeto;</li>
+<li> objeto = algo que pode ser caracterizado, possui estado e ações.</li>
 
 <h3>VISIBILIDADE</h3>
-..* public = totalmente visivel;
-..* private = visivel apenas dentro da mesma classe;
-..* protected = visivel para familia de objeto.
+<li> public = totalmente visivel;</li>
+<li> private = visivel apenas dentro da mesma classe;</li>
+<li> protected = visivel para familia de objeto.</li>
 
 <h3>MÉTODOS ESPECIAIS</h3>
-..* getters = metodos publicos que usam atributos privados para buscar informações;
-..* setters = metodos publicos que usam atributos privados e podem modifica-los;
-..* constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
+<li> getters = metodos publicos que usam atributos privados para buscar informações;
+<li> setters = metodos publicos que usam atributos privados e podem modifica-los;
+<li> constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
 
 <h1>EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO</h1>
 Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
@@ -58,10 +58,10 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 <br>
 <h2>NAVEGAÇÃO HERANÇA</h2>
 <ul>
-	<li>.</li>
-	<li>.</li>
-	<li>.</li>
-	<li>.</li>
+	<li>Classes mãe são chamadas: progenitoras, super-classes;</li>
+	<li>Classes filho são chamadas de sub-classe;</li>
+	<li>Sub-classes herdão tudo de suas ancestrais (mãe, avó e etc...) de acordo com as proriedades public, private e protected;</li>
+	<li>Classe que não possui super-classe chamam-se <strong>raiz</strong>(é a primeira classe, mãe de todas);</li>
 	<li>.</li>
 	<li>.</li>
 </ul>
