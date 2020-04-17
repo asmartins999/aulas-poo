@@ -43,7 +43,7 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 	<li>A interface deve ser ligada a classe através do comando implements.</li>
 </ul>
 <hr>
-<h3>HERANÇA</h3>
+<h2>HERANÇA</h2>
 <ul>
 	<li>Permite basear uma classe em outra pré-existente;</li>
 	<li>A nova classe não sera recriada do zero, mas com base na classe mãe;</li>
@@ -76,7 +76,7 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 
 
 <hr>
-<h3>RELACIONAMENTO ENTRE CLASSES</h3>
+<h2>RELACIONAMENTO ENTRE CLASSES</h2>
 
 <h3>AGREGAÇÃO</h3>
 <ul>
