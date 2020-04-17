@@ -62,8 +62,9 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 	<li>Classes filho são chamadas de sub-classe;</li>
 	<li>Sub-classes herdão tudo de suas ancestrais (mãe, avó e etc...) de acordo com as proriedades public, private e protected;</li>
 	<li>Classe que não possui super-classe chamam-se <strong>raiz</strong>(é a primeira classe, mãe de todas);</li>
-	<li>.</li>
-	<li>.</li>
+	<li>Classes filhas que não possuem filhas chamam-se: <strong>folhas</strong>;</li>
+	<li>A classe <strong>Raiz</strong> está localizada no top da árvore e as classes <strong>folhas</strong> estão localizadas abaixo da raiz;</li>
+	<li></li>
 </ul>
 
 
