@@ -52,8 +52,22 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 	<li>Uma classe é filiada a outra atravé do comando extends;</li>
 	<li>A classe mãe pode se chamar progenitora ou superclasse;</li>
 	<li>A classe filha pode se chamar subclasse;</li>
-	<li>Não é necessário declarar atributos e metodos da superclasse na subclasse, os mesmo já sao herdados da classe mãe;</li>
+	<li>Não é necessário declarar atributos e metodos da superclasse na subclasse, os mesmo já sao herdados da classe mãe;
+	</li>
 </ul>
+<br>
+<h2>NAVEGAÇÃO HERANÇA</h2>
+<ul>
+	<li>.</li>
+	<li>.</li>
+	<li>.</li>
+	<li>.</li>
+	<li>.</li>
+	<li>.</li>
+</ul>
+
+
+
 
 <hr>
 <h2>RELACIONAMENTO ENTRE CLASSES</h2>
