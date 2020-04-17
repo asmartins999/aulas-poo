@@ -71,7 +71,10 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 </ul>
 <h3>TIPOS DE HERANÇA</h3>
 <ul>
-	<li>.</li>
+	<h3>HERANÇA DE IMPLEMENTAÇÃO</h3>
+	<li>continuar do 9:51 - 11a</li>
+	<h3>HERANÇA PARA DIFEREÇA</h3>
+	<li></li>
 </ul>
 
 
