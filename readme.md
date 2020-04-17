@@ -14,7 +14,7 @@
 <li> setters = metodos publicos que usam atributos privados e podem modifica-los;
 <li> constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
 
-<h1>EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO</h1>
+<h2>EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO</h2>
 Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 
 <hr>
@@ -56,7 +56,7 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 	</li>
 </ul>
 <br>
-<h2>NAVEGAÇÃO HERANÇA</h2>
+<h3>NAVEGAÇÃO HERANÇA</h3>
 <ul>
 	<li>Classes mãe são chamadas: progenitoras, super-classes;</li>
 	<li>Classes filho são chamadas de sub-classe;</li>
@@ -64,14 +64,19 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 	<li>Classe que não possui super-classe chamam-se <strong>raiz</strong>(é a primeira classe, mãe de todas);</li>
 	<li>Classes filhas que não possuem filhas chamam-se: <strong>folhas</strong>;</li>
 	<li>A classe <strong>Raiz</strong> está localizada no top da árvore e as classes <strong>folhas</strong> estão localizadas abaixo da raiz;</li>
-	<li></li>
+	<li><strong>Descendentes</strong>são as classes <strong>neta</strong>;</li>
+	<li>Ancestrais são as classes <strong>avós;</strong></li>
+	<li>Especialização se dá quando percorremos a árvore de cima pra baixo;</li>
+	<li>Generalização se dá quando percorremos a árore de baixo pra cima;</li>
+</ul>
+<h3>TIPOS DE HERANÇA</h3>
+<ul>
+	<li>.</li>
 </ul>
 
 
-
-
 <hr>
-<h2>RELACIONAMENTO ENTRE CLASSES</h2>
+<h3>RELACIONAMENTO ENTRE CLASSES</h3>
 
 <h3>AGREGAÇÃO</h3>
 <ul>
