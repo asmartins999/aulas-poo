@@ -4,7 +4,7 @@ abstract class Pessoa{
 	private $idade;
 	private $sexo;
 
-	abstract function fazerAniver(){
+	public function fazerAniver(){
 		$this->setIdade($this->getIdade() + 1);
 	}
 
@@ -29,7 +29,7 @@ abstract class Pessoa{
 	}
 
 	public function setSexo($sexo){
-		$this->sexo - $sexo;
+		$this->sexo = $sexo;
 	}
 }
 ?>
