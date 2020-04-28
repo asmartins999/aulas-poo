@@ -64,7 +64,7 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 	<li>Classe que não possui super-classe chamam-se <strong>raiz</strong>(é a primeira classe, mãe de todas);</li>
 	<li>Classes filhas que não possuem filhas chamam-se: <strong>folhas</strong>;</li>
 	<li>A classe <strong>Raiz</strong> está localizada no top da árvore e as classes <strong>folhas</strong> estão localizadas abaixo da raiz;</li>
-	<li><strong>Descendentes</strong>são as classes <strong>neta</strong>;</li>
+	<li><strong>Descendentes</strong>são as classes <strong>netas</strong>;</li>
 	<li>Ancestrais são as classes <strong>avós;</strong></li>
 	<li>Especialização se dá quando percorremos a árvore de cima pra baixo;</li>
 	<li>Generalização se dá quando percorremos a árore de baixo pra cima;</li>
@@ -73,6 +73,23 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 <ul>
 	<li>Herança de Implementação é quando uma classe filha herda as propriedades da classe mãe, porém nao possui nenhuma propriedade em si mesma;</li>
 	<li>Heranca de Diferença é aquela em que as classes filhos possuem propriedades e também herdão as propriedades da classe mãe.</li>
+</ul>
+<hr>
+<h2>POLIMORFISMO</h2>
+<ul>
+	<li>Conceito - muitas formas. Permite que um mesmo nome represente vários comportamentos diferentes;</li>
+	<li>Assinatura do Método - Verificar a quantidade e o tipo dos parâmetros;</li>
+	<li></li>
+	<li></li>
+</ul>
+<h3>TIPOS DE POLIMORFISMO</h3>
+<h4>SOBREPOISÇÃO</h4>
+<ul>
+	<li>Acontece quando subtituímos um método de uma superclasse na sua assinatura;</li>
+</ul>
+<h4>SOBRECARGA</h4>
+<ul>
+	<li></li>
 </ul>
 <h3>ABSTRATO E FINAL (CONCEITO)</h3>
 <ul>
