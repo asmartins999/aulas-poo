@@ -86,10 +86,13 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 <h4>SOBREPOISÇÃO</h4>
 <ul>
 	<li>Acontece quando subtituímos um método de uma superclasse na sua assinatura;</li>
+	<li>Tem a mesma assinatura;</li>
+	<li>Os métodos estão em classes diferentes.</li>
 </ul>
-<h4>SOBRECARGA</h4>
+<h4>SOBRECARGA</h4> 
 <ul>
-	<li></li>
+	<li>Tem assinaturas diferentes;</li>
+	<li>Os métodos estão na mesma classe.</li>
 </ul>
 <h3>ABSTRATO E FINAL (CONCEITO)</h3>
 <ul>
