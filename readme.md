@@ -5,41 +5,41 @@
 <li> objeto = algo que pode ser caracterizado, possui estado e ações.</li>
 
 <h3>VISIBILIDADE</h3>
-<li> public = totalmente visivel;</li>
-<li> private = visivel apenas dentro da mesma classe;</li>
-<li> protected = visivel para familia de objeto.</li>
+<li> public = totalmente visível;</li>
+<li> private = visível apenas dentro da mesma classe;</li>
+<li> protected = visível para família do objeto.</li>
 
 <h3>MÉTODOS ESPECIAIS</h3>
-<li> getters = metodos publicos que usam atributos privados para buscar informações;
-<li> setters = metodos publicos que usam atributos privados e podem modifica-los;
-<li> constructors = metodos que sao executados automaticamente ao instanciar um objeto, serve para definir caracteristicas e comportamentos pre-definidos e default. Obs.: pode ter o mesmo nome da classe.
+<li> getters = métodos públicos que usam atributos privados para buscar informações;
+<li> setters = métodos públicos que usam atributos privados e podem modificá-los;
+<li> constructors = métodos que são executados automaticamente ao instanciar um objeto, servem para definir características e comportamentos pré-definidos e default. Obs.: pode ter o mesmo nome da classe.
 
 <h2>EHP - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO</h2>
-Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
+Pilares da POO (Modelo de 3 pilares - 4º pilar ABSTRAÇÃO esta dentro de ENCAPSULAMENTO)
 
 <hr>
 <h3>ENCAPSULAMENTO</h3>
  <ul>
- 	<li>Conceito -> capsula;</li>
+ 	<li>Conceito -> cápsula;</li>
 	 <li> Oculta partes independentes da implementação;</li>
 	 <li>Permite construir partes invisíveis ao mundo exterior;</li>
-	 <li>As informações solicitadas externamente seram tratadas pela capsula (interface);</li>
+	 <li>As informações solicitadas externamente seram tratadas pela cápsula (interface);</li>
 	 <li>Não depende de outro pilar;</li>
 	 <li>É uma boa prática, nāo é obrigatório.</li>
  </ul>
 <h3>VANTAGENS - ENCAPSULAMENTO</h3>
 <ul>
 	<li>Tornar mudanças invisíveis;</li>
-	<li>Facilitar a reutiliçāo do código;</li>
+	<li>Facilitar a reutilizaçāo do código;</li>
 	<li>Reduzir efeitos colatareais ao código.</li>
 </ul>
 <h3>CRIANDO UMA INTERFACE (CONCEITO)</h3>
 <ul>
 	<li>Interface tem um nome;</li>
-	<li>Interface nao possui atributos;</li>
-	<li>Possui somente metodos;</li>
-	<li>O metodos da interface são abstratos (não tem configurações, apenas chamam a função da classe);</li>
-	<li>Os metodos da interface geralmente são públicos;</li>
+	<li>Interface não possui atributos;</li>
+	<li>Possui somente métodos;</li>
+	<li>O métodos da interface são abstratos (não tem configurações, apenas chamam a função da classe);</li>
+	<li>Os métodos da interface geralmente são públicos;</li>
 	<li>A interface deve ser ligada a classe através do comando implements.</li>
 </ul>
 <hr>
@@ -47,12 +47,12 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 <ul>
 	<li>Permite basear uma classe em outra pré-existente;</li>
 	<li>A nova classe não sera recriada do zero, mas com base na classe mãe;</li>
-	<li>A herança se aplica aos atributos e metodos;</li>
-	<li>Herança nao dependete do Encapsulamento;</li>
-	<li>Uma classe é filiada a outra atravé do comando extends;</li>
+	<li>A herança se aplica aos atributos e métodos;</li>
+	<li>Herança não depende do Encapsulamento;</li>
+	<li>Uma classe é filiada a outra através do comando extends;</li>
 	<li>A classe mãe pode se chamar progenitora ou superclasse;</li>
 	<li>A classe filha pode se chamar subclasse;</li>
-	<li>Não é necessário declarar atributos e metodos da superclasse na subclasse, os mesmo já sao herdados da classe mãe;
+	<li>Não é necessário declarar atributos e métodos da superclasse na subclasse, os mesmos já são herdados da classe mãe;
 	</li>
 </ul>
 <br>
@@ -61,7 +61,7 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 	<li>Classes mãe são chamadas: progenitoras, super-classes;</li>
 	<li>Classes filho são chamadas de sub-classe;</li>
 	<li>Sub-classes herdão tudo de suas ancestrais (mãe, avó e etc...) de acordo com as proriedades public, private e protected;</li>
-	<li>Classe que não possui super-classe chamam-se <strong>raiz</strong>(é a primeira classe, mãe de todas);</li>
+	<li>Classes que não possuem super-classe chamam-se <strong>raiz</strong>(é a primeira classe, mãe de todas);</li>
 	<li>Classes filhas que não possuem filhas chamam-se: <strong>folhas</strong>;</li>
 	<li>A classe <strong>Raiz</strong> está localizada no top da árvore e as classes <strong>folhas</strong> estão localizadas abaixo da raiz;</li>
 	<li><strong>Descendentes</strong>são as classes <strong>netas</strong>;</li>
@@ -71,16 +71,14 @@ Pilares da POO (Modelo de 3 pilares - 4 pilar ABSTRAÇÃO esta dentro de ENCAPSU
 </ul>
 <h3>TIPOS DE HERANÇA</h3>
 <ul>
-	<li>Herança de Implementação é quando uma classe filha herda as propriedades da classe mãe, porém nao possui nenhuma propriedade em si mesma;</li>
-	<li>Heranca de Diferença é aquela em que as classes filhos possuem propriedades e também herdão as propriedades da classe mãe.</li>
+	<li>Herança de <strong>Implementação</strong> é quando uma classe filha herda as propriedades da classe mãe, porém não possui nenhuma propriedade em si mesma;</li>
+	<li>Heranca de <strong>Diferença</strong> é aquela em que as classes filhos possuem propriedades e também herdão as propriedades da classe mãe.</li>
 </ul>
 <hr>
 <h2>POLIMORFISMO</h2>
 <ul>
 	<li>Conceito - muitas formas. Permite que um mesmo nome represente vários comportamentos diferentes;</li>
 	<li>Assinatura do Método - Verificar a quantidade e o tipo dos parâmetros;</li>
-	<li></li>
-	<li></li>
 </ul>
 <h3>TIPOS DE POLIMORFISMO</h3>
 <h4>SOBREPOISÇÃO</h4>
